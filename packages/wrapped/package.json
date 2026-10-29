@@ -1,0 +1,23 @@
+{
+  "name": "wrapped",
+  "version": "1.0.0",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+    "exports": {
+    "development": "./src/index.ts",
+    "types": "./dist/index.d.ts",
+    "import": "./dist/index.js",
+    "default": "./dist/index.js"
+  },
+  "dependencies": {
+    "immutable": "catalog:",
+    "utils": "workspace:"
+  },
+  "devDependencies": {
+    "@types/bezier-js": "catalog:",
+    "typescript": "catalog:",
+    "vite-plus": "catalog:"
+  }
+}

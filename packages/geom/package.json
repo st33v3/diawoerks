@@ -1,0 +1,19 @@
+{
+  "name": "geom",
+  "version": "1.0.0",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "dependencies": {
+    "bezier-js": "catalog:",
+    "effect": "catalog:",
+    "immutable": "catalog:",
+    "utils": "workspace:"
+  },
+  "devDependencies": {
+    "@types/bezier-js": "catalog:",
+    "typescript": "catalog:",
+    "vite-plus": "catalog:"
+  }
+}
